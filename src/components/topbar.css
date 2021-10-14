@@ -1,0 +1,99 @@
+.tobarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.tobarleft{
+    flex: 20%;
+}
+.tobarCenter{
+    flex: 40%;
+}
+.topbarRight{
+    flex: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-evenly;
+    color: whitesmoke;
+   
+  
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.searchBar{
+    width: 100%;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  
+    
+}
+.searchicon{
+    cursor: pointer;
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchImput{
+    border: none;
+    width: 70%;
+}
+.searchImput:focus{
+    outline: none;
+}
+.topbarLinks{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.tobarIcons{
+    display: flex;
+
+}
+.topbarImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.tobarLink{
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+.tobarIcons{
+    display: flex;
+}
+.tobarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.tobarIconBagde{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
